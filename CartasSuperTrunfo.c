@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das cartas
-// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
-
-int main() {
- #include <stdio.h>
-
 int main() {
 
 // Declaração das variáveis da carta 01
@@ -22,7 +15,7 @@ int main() {
     char estadoB2;
     char codigoB2[3];
     char nomeCidadeB2[40];
-    int populacaoB2, pontosTuristicosB2;
+    int populacaoB2, PontosTuristicosB2;
     float areaB2, pibB2;
 
     printf("Cadastro da Carta A1 \n");
@@ -45,7 +38,7 @@ int main() {
     scanf("%f", &pibA1);
 
     printf("Número de pontos turísticos: ");
-    scanf("%d", &pontosTuristicosA1);
+    scanf("%d", &PontosTuristicosA1);
 
     printf("\n Cadastro da Carta 2 \n");
     printf("Estado : ");
@@ -67,7 +60,7 @@ int main() {
     scanf("%f", &pibB2);
 
     printf("Número de pontos turísticos: ");
-    scanf("%d", &pontosTuristicosB2);
+    scanf("%d", &PontosTuristicosB2);
 
     // Exibição dos dados das duas cartas
     printf("\n DADOS DAS CARTAS \n");
@@ -77,18 +70,18 @@ int main() {
     printf("Código: %s\n", codigoA1);
     printf("Cidade: %s\n", nomeCidadeA1);
     printf("População: %d\n", populacaoA1);
-    printf("Área: %.2f km²\n", areaA1);
-    printf("PIB: %.2f bilhões\n", pibA1);
-    printf("Pontos turísticos: %d\n", pontosTuristicosA1);
+    printf("Área: %.2f m²\n", areaA1);
+    printf("PIB: %.2f \n", pibA1);
+    printf("Pontos turísticos: %d\n", PontosTuristicosA1);
 
     printf("\nCarta B2:\n");
     printf("Estado: %c\n", estadoB2);
     printf("Código: %s\n", codigoB2);
     printf("Cidade: %s\n", nomeCidadeB2);
     printf("População: %d\n", populacaoB2);
-    printf("Área: %.2f km²\n", areaB2);
-    printf("PIB: %.2f bilhões\n", pibB2);
-    printf("Pontos turísticos: %d\n", pontosTuristicosB2);
+    printf("Área: %.2f m²\n", areaB2);
+    printf("PIB: %.2f \n", pibB2);
+    printf("Pontos turísticos: %d\n", PontosTuristicosB2);
 
     return 0;
 }
