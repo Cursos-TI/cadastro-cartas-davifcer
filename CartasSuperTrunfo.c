@@ -42,7 +42,7 @@ int main() {
 
     printf("\n Cadastro da Carta 2 \n");
     printf("Estado : ");
-    scanf(" %c", &estado2);
+    scanf(" %c", &estadoB2);
 
     printf("Código da carta: ");
     scanf("%s", codigoB2);
